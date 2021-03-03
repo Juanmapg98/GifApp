@@ -1,0 +1,42 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  outline: none;
+  color: purple;
+}
+.cardGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  align-content: center;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: slateblue;
+}
+
+.card p {
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.card img {
+  max-height: 170px;
+  margin: 10px;
+  border-radius: 10px;
+}
